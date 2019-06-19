@@ -11,7 +11,13 @@
 #   ["a","a","b"]
 # ]
 
-# solution2 的写法更舒服点。
+# 典型回溯法，solution2 的写法更舒服点。
+
+# 学习到的
+# nums = [1,2,3,4,5,6]
+# a,*i,b = nums
+# >>>*i
+# [2,3,4,5]
 
 class solution1:
     def _partition(self, s):

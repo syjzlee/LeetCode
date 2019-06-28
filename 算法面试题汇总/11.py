@@ -32,6 +32,7 @@ class Solution:
                 word_dict[i]-=1
             else:
                 return False
+        return True
 
 
 # 吗的 别人的脑子怎么就能记住这个   我怎么老在造车轮 还是方的车轮

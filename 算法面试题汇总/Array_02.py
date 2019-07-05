@@ -16,7 +16,7 @@ class Solution :
         count = 0
         temp = nums[0]
         for num in nums:
-            if nums == temp:
+            if num == temp:
                 count += 1
             else:
                 (count, temp) = (count-1, temp) if count >= 1 else (1,num)

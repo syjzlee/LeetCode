@@ -31,4 +31,3 @@ class Solution:
 solution = Solution()
 print(solution.maxProduct([0,2]))
 
-

@@ -57,9 +57,6 @@ class Solution:
                 if current >= len(nums) and current%len(nums) == i:
                     break
 
-
-
-
         return nums
 
 solution = Solution()

@@ -12,3 +12,22 @@ https://leetcode-cn.com/explore/featured/card/recursion-i/256/principle-of-recur
 
 一个简单的基本案例（basic case）（或一些案例） —— 能够不使用递归来产生答案的终止方案。
 一组规则，也称作递推关系（recurrence relation），可将所有其他情况拆分到基本案例。
+
+
+
+# 递推关系
+https://leetcode-cn.com/explore/orignial/card/recursion-i/257/recurrence-relation/1208/
+
+在前一章中，我们学习了递归的基本概念。
+
+在实现递归函数之前，有两件重要的事情需要解决：基本情况和递推关系。
+
+在实现递归函数之前，有两件重要的事情需要弄清楚:
+
+递推关系： 一个问题的结果与其子问题的结果之间的关系。
+基本情况: 不需要进一步的递归调用就可以直接计算答案的情况。 有时，基本案例也被称为 bottom cases，因为它们往往是问题被减少到最小规模的情况，也就是如果我们认为将问题划分为子问题是一种自上而下的方式的最下层。
+一旦我们计算出以上两个元素，再想要实现一个递归函数，就只需要根据递推关系调用函数本身，直到其抵达基本情况。
+
+
+# 记忆化技术
+https://leetcode-cn.com/explore/orignial/card/recursion-i/258/memorization/1211/
